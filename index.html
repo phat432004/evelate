@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevate - Unlock your team's potential</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                orange: '#F47D42', // Vector color
+                orangeDark: '#FA7315',
+                dark: '#1A3154', // Main text/logo color
+                darker: '#0E172A', // Features bg
+                light: '#F9FAFC', // Problem/Experts bg
+                beige: '#F9E7CB', // Partners bg
+                border: '#DBEAFA', // Card borders
+              }
+            },
+            backgroundImage: {
+              'sunset': 'linear-gradient(263.77deg, #F2A864 17.92%, #ED7873 85.49%)',
+              'footer-gradient': 'linear-gradient(105.99deg, #36272B -8.18%, #10182A 26.54%, #142545 105.51%)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for a polished look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white text-[#1A3154] antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
