@@ -279,7 +279,7 @@ export const SolutionSection: React.FC = () => {
               }}
             >
               <img 
-                src="img/solution_section.png" 
+                src="/img/solution_section.png" 
                 alt="Course" 
                 className="w-full h-full object-cover"
               />

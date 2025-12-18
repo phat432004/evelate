@@ -109,7 +109,7 @@ export const HeroSection: React.FC = () => {
             }}
           >
             <img 
-              src="img/hero_section_1.png" 
+              src="/img/hero_section_1.png" 
               alt="App Screen 1" 
               className="w-full h-full object-cover"
             />
@@ -130,7 +130,7 @@ export const HeroSection: React.FC = () => {
             }}
           >
             <img 
-              src="img/hero_section_2.png" 
+              src="/img/hero_section_2.png" 
               alt="App Screen 2" 
               className="w-full h-full object-cover"
             />
